@@ -25,3 +25,7 @@ spring:
           starttls:
             enable: true
             required: true
+ip:
+  limit:
+    minutes: 3
+    maxTimes: 6
